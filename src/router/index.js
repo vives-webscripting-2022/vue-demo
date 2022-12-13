@@ -22,6 +22,11 @@ const router = createRouter({
       name: "Help page",
       component: () => import("../views/HelpView.vue"),
     },
+    {
+      path: "/users",
+      name: "List users",
+      component: () => import("../views/UserView.vue"),
+    }
   ],
 });
 
